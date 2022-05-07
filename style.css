@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+canvas {
+    top: 0;
+    left: 0;
+    width: 100%;
+    image-rendering: pixelated;
+}
+
+.cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(164, 173, 232, 0.51);
+}
